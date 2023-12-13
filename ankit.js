@@ -198,15 +198,16 @@
       // ++	       Increment
       // --	       Decrement
 
-//  let a=30;
-//  let b="85";
+//  let a=995;
+//  let b=2;
+
  
+//  console.log(a**b);
 //  console.log(a+b);
 //  console.log(a-b);
 //  console.log(a/b);
 //  console.log(a*b);
-//  console.log(a%b);
-
+ //console.log(a%b);
 //  console.log(a==b);
 //  console.log(a===b);
 
@@ -215,33 +216,33 @@
 
 //Enter your marks
 
-let marks =367;
+// let marks =367;
 
-if(marks>=400 && marks<=500)
-{
-      console.log(`You score a ${marks/5} % marks in +2 Examination and You got A grade `)
-}
-else if(marks>=300 && marks<=500)
-{
-      console.log(`You score a ${marks/5} % marks in +2 Examination and You got B grade `)
-}
-else if(marks>=250 && marks<=500)
-{
-      console.log(`You score a ${marks/5} % marks in +2 Examination and You got C grade `)
-}
-else if(marks>=180 && marks<=500)
-{
-      console.log(`You score a ${marks/5} % marks in +2 Examination and You got D grade `)
+// if(marks>=400 && marks<=500)
+// {
+//       console.log(`You score a ${marks/5} % marks in +2 Examination and You got A grade `)
+// }
+// else if(marks>=300 && marks<=500)
+// {
+//       console.log(`You score a ${marks/5} % marks in +2 Examination and You got B grade `)
+// }
+// else if(marks>=250 && marks<=500)
+// {
+//       console.log(`You score a ${marks/5} % marks in +2 Examination and You got C grade `)
+// }
+// else if(marks>=180 && marks<=500)
+// {
+//       console.log(`You score a ${marks/5} % marks in +2 Examination and You got D grade `)
   
-}
-else if(marks>500)
-{
-      console.log("Please Enter Valid number")
-}
-else
-{
-      console.log(`You score a ${marks/5} % marks.Sorry Dear,You are Fail in +2 Examination  `)
-}
+// }
+// else if(marks>500)
+// {
+//       console.log("Please Enter Valid number")
+// }
+// else
+// {
+//       console.log(`You score a ${marks/5} % marks.Sorry Dear,You are Fail in +2 Examination  `)
+// }
 
 // const age=111;
 
