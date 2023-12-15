@@ -331,10 +331,10 @@
 //-----::::::Print atable with the help of loop:::::-----\\
 //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
 //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
-for(let a=1;a<=10;a++)
-{
-      console.log(`800 x ${a} =`,a*800)
-}
+// for(let a=1;a<=10;a++)
+// {
+//       console.log(`17 x ${a} +=`,a*17)
+// }
 
 
 
@@ -345,16 +345,100 @@ for(let a=1;a<=10;a++)
 //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
 //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
 
-let a;
-let b;
-for(a=1;a<=5;a++)
-{
-  var blank="*";
-  for(b=1;b<5;b++)
-{
-    blank=blank+" "+"*";
-}
-console.log(blank)
-}
+// let a;
+// let b;
+// for(a=1;a<=5;a++)
+// {
+//   var blank="*";
+//   for(b=1;b<
+//     5;b++)
+// {
+//     blank=blank+" "+"*";
+// }
+// console.log(blank)
+// }
 
+
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::While loop:::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+// let a;
+// while(a<=10)
+// {
+//       console.log(a);
+//       a++;
+// }
+
+// let i=1000;
+// while (i <=10) {
+//       console.log(i);+
+//       i++;
+//     }
+
+
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::DO While loop:::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+
+//Enter the value print a table
+
+// let i=1;
+// let num=63;
+// do
+// {
+//       console.log(i*num);
+//       i++;
+// }
+// while(i<=10)
+
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----:::::::::::::: && || operater ::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//     && operater
+// const num1=15;
+// const num2=30;
+// console.log("&& operater",num1<num2 && num1<10);
+
+//     || operater
+// console.log("|| operater",num1>num2 || num1<10);
+
+
+
+
+//Enter your +2 marks persentage
+let persentage=91;
+//Enter your Accountancy marks
+let accmarks=96;
+//Business studies marks
+let bstmarks =88;
+//Economics marks
+let ecomarks =86;
+
+
+if(persentage>=85 && accmarks>=90 && bstmarks>=85 && ecomarks>=85 )
+{
+   console.log("Mnager");
+}
+else if(persentage>=85 && accmarks>=90 || persentage>=90 && accmarks>=85)
+{
+      console.log("Accounts Department");
+}
+else if (persentage>=80 && bstmarks>=85 || persentage>=85 && bstmarks>=90)
+{
+      console.log("Business Department");
+}
+else if(persentage>=80 && ecomarks>=85 || persentage>=85 && ecomarks>=90)
+{
+      console.log("Economic Department")
+}
+else
+{
+      console.log("Sorry Required number");
+}
 
