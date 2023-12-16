@@ -409,22 +409,37 @@
 // console.log("|| operater",num1>num2 || num1<10);
 
 
-
-
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----:Multiple && || operter use in this program:-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+ //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+/*
 //Enter your +2 marks persentage
-let persentage=91;
+let persentage=90;
 //Enter your Accountancy marks
-let accmarks=96;
+let accmarks=80;
 //Business studies marks
-let bstmarks =88;
+let bstmarks =86;
 //Economics marks
-let ecomarks =86;
+let ecomarks =85;
 
 
 if(persentage>=85 && accmarks>=90 && bstmarks>=85 && ecomarks>=85 )
 {
    console.log("Mnager");
 }
+
+else if(persentage>=85 && accmarks>=90 && bstmarks>=85 || persentage>=90 && accmarks>=85 && bstmarks>=80)
+{
+      console.log("Account and Business Department")
+}
+
+else if(persentage>=85 && bstmarks>=85 && ecomarks>=85 || persentage>=90 && bstmarks>=80 && ecomarks>=80)
+{
+      console.log("Economic and Busniess Department")
+}
+
 else if(persentage>=85 && accmarks>=90 || persentage>=90 && accmarks>=85)
 {
       console.log("Accounts Department");
@@ -441,4 +456,46 @@ else
 {
       console.log("Sorry Required number");
 }
+*/ 
 
+
+
+// let hy =10;
+// switch(hy)
+// {
+// case 10:
+// console.log("one");
+// break;
+// case 2:
+// console.log("two")      
+// break;
+// default :
+// console.log("sorry")
+
+// }
+
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+//-----:Use trim and lenght function in java script:-----\\
+//-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+ //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
+
+let a="    Ankit    ";
+
+let e="   karan";
+
+// console.log(a.trim())
+// console.log(a.length)
+let b=a.trimStart();
+let g=b+e;
+console.log(b.length);
+console.log(b);
+console.log(g);
+
+
+
+
+
+// console.log(a.trim(),a.length)
+// console.log(a.length)
+// console.log(a)
