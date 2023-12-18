@@ -414,49 +414,49 @@
 //-----:Multiple && || operter use in this program:-----\\
 //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
  //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
-/*
+
 //Enter your +2 marks persentage
-let persentage=90;
+// let persentage=90;
 //Enter your Accountancy marks
-let accmarks=80;
+// let accmarks=80;
 //Business studies marks
-let bstmarks =86;
+// let bstmarks =86;
 //Economics marks
-let ecomarks =85;
+// let ecomarks =85;
 
 
-if(persentage>=85 && accmarks>=90 && bstmarks>=85 && ecomarks>=85 )
-{
-   console.log("Mnager");
-}
+// if(persentage>=85 && accmarks>=90 && bstmarks>=85 && ecomarks>=85 )
+// {
+//    console.log("Mnager");
+// }
 
-else if(persentage>=85 && accmarks>=90 && bstmarks>=85 || persentage>=90 && accmarks>=85 && bstmarks>=80)
-{
-      console.log("Account and Business Department")
-}
+// else if(persentage>=85 && accmarks>=90 && bstmarks>=85 || persentage>=90 && accmarks>=85 && bstmarks>=80)
+// {
+//       console.log("Account and Business Department")
+// }
 
-else if(persentage>=85 && bstmarks>=85 && ecomarks>=85 || persentage>=90 && bstmarks>=80 && ecomarks>=80)
-{
-      console.log("Economic and Busniess Department")
-}
+// else if(persentage>=85 && bstmarks>=85 && ecomarks>=85 || persentage>=90 && bstmarks>=80 && ecomarks>=80)
+// {
+//       console.log("Economic and Busniess Department")
+// }
 
-else if(persentage>=85 && accmarks>=90 || persentage>=90 && accmarks>=85)
-{
-      console.log("Accounts Department");
-}
-else if (persentage>=80 && bstmarks>=85 || persentage>=85 && bstmarks>=90)
-{
-      console.log("Business Department");
-}
-else if(persentage>=80 && ecomarks>=85 || persentage>=85 && ecomarks>=90)
-{
-      console.log("Economic Department")
-}
-else
-{
-      console.log("Sorry Required number");
-}
-*/ 
+// else if(persentage>=85 && accmarks>=90 || persentage>=90 && accmarks>=85)
+// {
+//       console.log("Accounts Department");
+// }
+// else if (persentage>=80 && bstmarks>=85 || persentage>=85 && bstmarks>=90)
+// {
+//       console.log("Business Department");
+// }
+// else if(persentage>=80 && ecomarks>=85 || persentage>=85 && ecomarks>=90)
+// {
+//       console.log("Economic Department")
+// }
+// else
+// {
+//       console.log("Sorry Required number");
+// }
+
 
 
 
@@ -480,17 +480,17 @@ else
 //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
  //-----::::::::::::::::::::::::::::::::::::::::::::-----\\
 
-let a="    Ankit    ";
+// let a="    Ankit    ";
 
-let e="   karan";
+// let e="   karan";
 
 // console.log(a.trim())
 // console.log(a.length)
-let b=a.trimStart();
-let g=b+e;
-console.log(b.length);
-console.log(b);
-console.log(g);
+// let b=a.trimStart();
+// let g=b+e;
+// console.log(b.length);
+// console.log(b);
+// console.log(g);
 
 
 
@@ -499,3 +499,82 @@ console.log(g);
 // console.log(a.trim(),a.length)
 // console.log(a.length)
 // console.log(a)
+
+// let array=["ankit","raman","pankaj",1]
+
+// array.pop()
+
+// for(let i=0;i<=array.length;i++)
+// {
+//       console.log(array[i])
+// }
+// console.log(array);
+
+// let add="I love Himachal";
+// console.log()
+
+
+//------concat------\\
+
+// let str1="hello "
+// let str2="Ankit"
+// console.log(str1.concat(str2))
+
+//------slice------\\
+
+// let slic="Ankit from Himachal";
+
+// console.log(slic.slice(6,26))
+
+
+//------trim------\\
+
+// let trm="     hello     ";
+// tm=trm.trim()
+// console.log(tm.length)
+
+//------trimEnd------\\
+
+// let end="hello       ";
+
+// ed=end.trimEnd()
+
+
+
+
+// console.log(ed.length)
+
+//------trimStart------\\
+
+// let end="       hello";
+
+// ed=end.trimStart()
+
+// console.log(ed.length)
+// console.log(ed)
+
+
+
+//------Replae------\\
+
+// let repl="My name Ankit"
+
+// let newrepl=repl.replace("Ankit","Bharupiya")
+// console.log(newrepl)
+
+
+
+
+//------replaceall------\\
+
+// let replall="Raman is good boy . he is hand 
+
+//------toUpperCase------\\
+
+// let upp="hello world"
+// console.log(upp.toUpperCase())
+
+//------toLowercase------\\
+
+// let low="HELLO WORLD"
+// console.log(low.toLowerCase())
