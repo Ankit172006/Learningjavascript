@@ -578,3 +578,106 @@
 
 // let low="HELLO WORLD"
 // console.log(low.toLowerCase())
+
+
+// let obj={
+//    Name:"Ankit",
+//    address:"Mandi Himachal",
+//    pincode:175036,
+   
+// }
+
+
+// for(let i in obj)
+// {
+//       console.log(i,obj[i])
+// }
+// console.log(obj.Name)
+
+// let stoar="Hello World"
+// stoar.split(" ");
+// console.log(stoar.split(" "))
+
+
+// function hy()
+// {
+//       const num1=500;
+//       const num2=80;
+//       console.log(num1-num2)
+// }
+// hello();
+
+// function hy(x,y)
+// {
+//       return x*y;
+// }
+// console.log(hy(85,5))
+
+// let ankit= (x,y) =>{
+//       return x+y;
+// }
+// console.log(ankit(56,65))
+
+
+// let hy =(a,b)=>{
+//       return a*b
+// }
+// console.log(hy(85,96));
+
+
+// let karan =function (n1,n2)
+// {
+//    return n1/n2;
+// }
+// console.log(karan(425,5));
+// console.log(karan(89,2))
+
+
+// function home(n,m){
+      
+//    console.log(n*m);
+//    console.log(n+m);
+//    console.log(n-m);
+//    console.log(n/m);   
+//    console.log("This is your output")   
+// }
+// home(89,8);
+// var pass=1720;
+
+// function on(n)
+// {
+//       if(n==pass)
+//       {
+//         for(let i=0;i<=10;i++)
+//         {
+//             console.log(i)
+//         }
+//       }
+//       else
+//       {
+//             console.log("Sorry'")
+//       }
+// }
+//enter password
+// on(1720);
+//enter your accountancy marks
+
+
+function mark(m)
+{
+  if(m>=85 && persentage>=85 || m>=80 && persentage>=90 )
+  {
+      console.log("Very good")
+  }
+  else if(m>=80 && persentage>=80 || m>=75 && persentage>=85 )
+  {
+      console.log("Good")
+  }
+  else
+  {
+      console.log("na")
+  }
+}
+var persentage=75;
+mark(85);
+
